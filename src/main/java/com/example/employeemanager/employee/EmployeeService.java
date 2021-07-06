@@ -21,6 +21,14 @@ public class EmployeeService {
         return employeeRepository.findAll();
     }
 
+    public Optional<Employee> getSingleEmployee(Long employeeId) {
+        boolean exists = employeeRepository.existsById(employeeId);
+        if (!exists) {
+            throw new IllegalStateException("employee with ID " + employeeId + " does not exist");
+        }
+        return employeeRepository.findById(employeeId);
+    }
+
     public void addNewEmployee(Employee employee) {
         Optional<Employee> optionalEmployee = employeeRepository.findEmployeeByEmail(employee.getEmail());
 
