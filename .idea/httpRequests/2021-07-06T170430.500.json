@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-07-06T21:04:30.862+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "employee with ID 3 does not exist",
+  "path": "/api/v1/employee/3"
+}

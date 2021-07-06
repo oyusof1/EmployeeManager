@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-07-06T20:42:15.854+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "email is already in use",
+  "path": "/api/v1/employee"
+}

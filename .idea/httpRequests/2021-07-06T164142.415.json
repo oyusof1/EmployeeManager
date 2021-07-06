@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-07-06T20:41:42.689+00:00",
+  "status": 415,
+  "error": "Unsupported Media Type",
+  "message": "Content type '*/*;charset=UTF-8' not supported",
+  "path": "/api/v1/employee"
+}

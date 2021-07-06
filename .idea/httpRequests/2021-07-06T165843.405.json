@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-07-06T20:58:43.532+00:00",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "message": "Request method 'GET' not supported",
+  "path": "/api/v1/employee/1"
+}

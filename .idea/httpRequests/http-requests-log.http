@@ -1,0 +1,335 @@
+DELETE http://localhost:8080/api/v1/employee/3
+
+###
+
+POST http://localhost:8080/api/v1/employee
+content-type: application/json
+
+{
+"name": "Osman",
+"email": "Osman1@gmail.com",
+"position": "Software Developer"
+}
+
+###
+
+POST http://localhost:8080/api/v1/employee
+content-type: application/json
+
+{
+"name": "Osman",
+"email": "Osman1@gmail.com",
+"position": "Software Developer"
+}
+
+###
+
+DELETE http://localhost:8080/api/v1/employee/3
+
+<> 2021-07-06T170504.500.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/1
+
+<> 2021-07-06T170449.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/Osman@gmail.com
+
+<> 2021-07-06T170434.400.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/3
+
+<> 2021-07-06T170430.500.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/3
+
+<> 2021-07-06T170329.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/1
+
+<> 2021-07-06T170325.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/2
+
+<> 2021-07-06T170321.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/Osman@gmail.com
+
+<> 2021-07-06T170223.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/osman@gmail.com
+
+<> 2021-07-06T170209.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/1
+
+<> 2021-07-06T165843.405.json
+
+###
+
+DELETE http://localhost:8080/api/v1/employee/3
+
+<> 2021-07-06T165218.500.json
+
+###
+
+GET http://localhost:8080/api/v1/employee
+
+<> 2021-07-06T164705.200.json
+
+###
+
+DELETE http://localhost:8080/api/v1/employee/3
+
+###
+
+DELETE http://localhost:8080/api/v1/employee/3
+<> 2021-07-06T164242.200.json:
+<> 2021-07-06T164215.500.json:
+<> 2021-07-06T164142.415.json:
+
+<> 2021-07-06T164651.400.html
+
+###
+
+GET http://localhost:8080/api/v1/employee
+
+<> 2021-07-06T164242.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+content-type: application/json
+
+{
+"name": "Osman",
+"email": "Osman1@gmail.com",
+"position": "Software Developer"
+}
+
+###
+
+POST http://localhost:8080/api/v1/employee
+content-type: application/json
+
+{
+"name": "Osman",
+"email": "Osman@gmail.com",
+"position": "Software Developer"
+}
+
+<> 2021-07-06T164215.500.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+
+{
+"name": "Osman",
+"email": "Osman@gmail.com",
+"position": "Software Developer"
+}
+
+<> 2021-07-06T164142.415.json
+
+###
+
+GET http://localhost:8080/api/v1/employee
+Accept: application/json
+
+PUT http://localhost:8080/api/v1/employee
+
+<> 2021-07-06T163659.200.json
+
+###
+
+POST http://localhost:80/api/item
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+
+###
+
+GET http://localhost:8080/api/v1/employee
+
+Accept: application/json
+
+<> 2021-07-06T163452.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employee
+
+Accept: application/json
+
+<> 2021-07-03T174240.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employee
+
+Accept: application/json
+
+<> 2021-07-03T174207.404.json
+
+###
+
+GET http://localhost:8080/api/v1/employees
+
+Accept: application/json
+
+<> 2021-07-03T174118.404.json
+
+###
+
+GET http://localhost:8080/api/v1/employees
+
+Accept: application/json
+
+<> 2021-07-03T174100.404.json
+
+###
+
+GET http://localhost:8080/api/v1/employee
+
+Accept: application/json
+
+<> 2021-07-03T174055.404.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/1
+
+Accept: application/json
+
+<> 2021-07-03T174050.405.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/1
+
+Accept: application/json
+
+<> 2021-07-03T173301.405.json
+
+###
+
+GET http://localhost:8080/api/v1/employee?id=1
+
+Accept: application/json
+
+<> 2021-07-03T173252.404.json
+
+###
+
+GET http://localhost:8080/api/v1/employee?id=1
+
+Accept: application/json
+
+<> 2021-07-03T173003.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employee?id=1
+
+Accept: application/json
+
+<> 2021-07-03T172959.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/1
+
+Accept: application/json
+
+<> 2021-07-03T172951.405.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/1
+
+Accept: application/json
+
+<> 2021-07-03T172947.405.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/1
+
+Accept: application/json
+
+<> 2021-07-03T172905.405.json
+
+###
+
+GET http://localhost:8080/api/v1/1
+
+Accept: application/json
+
+<> 2021-07-03T172855.404.json
+
+###
+
+GET http://localhost:8080/api/v1/employee1
+
+Accept: application/json
+
+<> 2021-07-03T172703.404.json
+
+###
+
+GET http://localhost:8080/api/v1/employee/1
+Accept: application/json
+
+<> 2021-07-03T172654.405.json
+
+###
+
+GET http://localhost:8080/api/v1/employee?id=1
+Accept: application/json
+
+<> 2021-07-03T172640.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employee
+Accept: application/json
+
+<> 2021-07-03T172628.200.json
+
+###
+
+GET http://localhost:8080/api/v1/
+Accept: application/json
+
+<> 2021-07-03T172615.404.json
+
+###
+
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+
+###
+
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+
+###
+
