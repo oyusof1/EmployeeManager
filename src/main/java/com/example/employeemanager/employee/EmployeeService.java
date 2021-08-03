@@ -62,6 +62,7 @@ public class EmployeeService {
                 throw new IllegalStateException("email is taken");
             }
             employee.setEmail(email);
+            employeeRepository.save(employee);
         }
     }
 

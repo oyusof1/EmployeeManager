@@ -8,5 +8,7 @@ com/example/employeemanager/employee/EmployeeConfig.java
  com.example.employeemanager.employee.EmployeeConfig
 com/example/employeemanager/employee/EmployeeService.java
  com.example.employeemanager.employee.EmployeeService
+com/example/employeemanager/WebConfig.java
+ com.example.employeemanager.WebConfig
 com/example/employeemanager/employee/EmployeeController.java
  com.example.employeemanager.employee.EmployeeController
