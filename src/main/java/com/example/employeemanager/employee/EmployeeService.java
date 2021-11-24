@@ -44,7 +44,7 @@ public class EmployeeService {
             throw new IllegalStateException("employee with ID " + employeeId + " does not exist");
         }
         employeeRepository.deleteById(employeeId);
-    }   
+    }
 
     @Transactional
     public void updateEmployee(Long employeeId, String name, String email) {
